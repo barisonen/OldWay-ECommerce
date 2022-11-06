@@ -101,6 +101,23 @@ a,a:hover{
     transition:all .3s ease
 }
 
+a:link{
+    text-decoration: none;
+}
+
+
+a.page-link{
+/*    background-color: #3a434d;; */
+    -webkit-text-fill-color: #3a434d;
+
+}
+
+/*
+a.page-item:after{
+    background-color: red;
+}
+*/
+
 /*Layout Css*/
 .section-content-p35{
     padding:0 35px
@@ -109,7 +126,7 @@ a,a:hover{
 .page-wrapper{
     overflow:hidden;
     background:#e5e5e5;
-    padding-bottom:8vh
+    padding-bottom:8vh;
 }
 
 .page-container{
@@ -544,7 +561,7 @@ input.au-input.au-input-xl{
 .price{
     margin:15px 0 0;
     font-weight:800;
-    color:#0da8e4
+    color:#0da0e4
 }
 .product-box h1{
     font-size:18px;
@@ -707,7 +724,7 @@ table.table.table-bordered th{
     padding-left:15px;
     margin-bottom:10px;
     outline:0;
-    margin-left:5px
+    margin-left:5px;
 }
 
 /* 
